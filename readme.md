@@ -1,16 +1,19 @@
 # Testy sklepu internetowego "Swag Labs" ("https://www.saucedemo.com/")
 
 ## Wprowadzenie
-Projekt zawiera testy sklepu internetowego "Swag Labs" ("https://www.saucedemo.com/"), napisane w pythonie, z użyciem bibloteki pytest
+Projekt został napisany jako praca zaliczeniowa Kursu "Tester oprogramowania dla aplikacji mobilnych i serwerowych" realizowanego na Uniwersytecie WSB Merito we Wrocławiu.
+Zawiera on testy sklepu internetowego "Swag Labs" ("https://www.saucedemo.com/"), które zostały napisane w Pythonie przy użyciu bibloteki pytest.
+
 
 ## Technologia
 - Python > 3.0
 - pytest
- - Selenium dla chrome
+ - Selenium dla Chrome
 
 ## Uruchomienie
 Aby uruchomić test należy:
 - Zainstalować pythona
+- Zainstaluj Selenium Driver dla Chrome
 - Zainstalować wszystkie zależności:
 ```
 pip install -r requirements.txt
